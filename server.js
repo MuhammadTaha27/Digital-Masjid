@@ -93,6 +93,6 @@ defaultWSServer.on("connection", (ws) => {
 
 // Start the server
 server.listen(HTTP_PORT, () => 
-  console.log(`HTTP server listening at http://localhost:${HTTP_PORT}`)
+  console.log(`HTTP server listening at http://${serverIp}:${HTTP_PORT}`)
 );
 
