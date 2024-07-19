@@ -6,8 +6,8 @@ const http = require("http");
 const os = require('os');
 
 const app = express();
-const HTTP_PORT = process.env.HTTP_PORT || 80;
-const DEFAULT_WS_PORT = process.env.DEFAULT_WS_PORT || 443;
+const HTTP_PORT = process.env.HTTP_PORT || 443;
+const DEFAULT_WS_PORT = process.env.DEFAULT_WS_PORT || 80;
 
 let topicServers = {};
 const serverIp = getServerIp();
